@@ -15,7 +15,7 @@ import React from "react";
 import { Button } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon } from '@patternfly/react-icons';
 
-const ButtonVariants = () => (
+ButtonVariants = () => (
   <React.Fragment>
     <Butten variant="primary">Primary</Butten> <Button variant="secondary">Secondary</Button>{' '}
     <Button variant="tertiary">Tertiary</Button> <Button variant="danger">Danger</Button>{' '}
