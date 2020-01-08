@@ -10,7 +10,7 @@ propComponents: ['Button']
 import { Button } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon } from '@patternfly/react-icons';
 
-```js
+```jsx
 import React from "react";
 import { Button } from '@patternfly/react-core';
 import { TimesIcon, PlusCircleIcon } from '@patternfly/react-icons';

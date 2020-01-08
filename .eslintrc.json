@@ -1,6 +1,8 @@
 {
   "plugins": [
-    "markdown"
+    "markdown",
+    "import",
+    "unused-imports"
   ],
   "parserOptions": {
     "sourceType": "module",
@@ -11,6 +13,9 @@
   "rules": {
     "eol-last": 2,
     "no-console": 2,
-    "spaced-comment": 2
+    "spaced-comment": 2,
+    "import/no-unresolved": [2, {"commonjs": true, "amd": true}],
+    "unused-imports/no-unused-imports": 2,
+    "unused-imports/no-unused-vars": 2
   }
 }
