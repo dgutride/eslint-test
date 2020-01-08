@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "markdown"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "eol-last": 2,
+    "no-console": 2,
+    "spaced-comment": 2
+  }
+}
