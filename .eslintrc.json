@@ -1,8 +1,6 @@
 {
   "plugins": [
     "markdown",
-    "import",
-    "unused-imports",
     "react"
   ],
   "parserOptions": {
@@ -12,13 +10,13 @@
     }
   },
   "rules": {
-    "eol-last": 2,
-    "no-console": 2,
-    "spaced-comment": 2,
-    "no-unused-vars": 2,
+    "eol-last": 1,
+    "no-console": 1,
+    "spaced-comment": 1,
+    "no-unused-vars": 0,
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
-    "react/no-unknown-property": 2,
-    "react/jsx-no-undef": 2
+    "react/no-unknown-property": 1,
+    "react/jsx-no-undef": 1
   }
 }
