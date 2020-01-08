@@ -2,7 +2,8 @@
   "plugins": [
     "markdown",
     "import",
-    "unused-imports"
+    "unused-imports",
+    "react"
   ],
   "parserOptions": {
     "sourceType": "module",
@@ -14,8 +15,7 @@
     "eol-last": 2,
     "no-console": 2,
     "spaced-comment": 2,
-    "import/no-unresolved": [2, {"commonjs": true, "amd": true}],
-    "unused-imports/no-unused-imports": 2,
-    "unused-imports/no-unused-vars": 2
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
   }
 }
